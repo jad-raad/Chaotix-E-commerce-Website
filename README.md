@@ -33,7 +33,7 @@ Chaotix Clothing Brand is a full-stack e-commerce application for showcasing and
 ### Backend Setup (FastAPI)
 1. Clone the repository:
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/jad-raad/Chaotix-E-commerce-Website
     cd chaotix-backend-fastapi
     ```
 2. Create and activate a virtual environment:
