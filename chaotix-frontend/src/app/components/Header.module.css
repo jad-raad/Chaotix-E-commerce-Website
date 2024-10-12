@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C1C; /* Matte Black */
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #c40c0c; /* Accent color on hover */
+  }
+  
+
+  
+  
+  .cartWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  /* New styles for Logout button */
+.logoutButton {
+  background-color: transparent; /* No background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 1.2rem; /* Adjust size as needed */
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+.logoutButton:hover {
+  color: #c40c0c; /* Accent color on hover */
+}
+  
+.welcomeMessage {
+  color: white; /* White text color */
+  font-size: 1.2rem; /* Font size */
+  margin-right: 10px; /* Space between message and logout button */
+  font-weight: bold; /* Bold text */
+}

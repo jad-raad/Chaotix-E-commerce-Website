@@ -1,0 +1,107 @@
+/* src/app/components/ProductGallery.module.css */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .productCard {
+    background-color: #1c1c1c; /* Matte Black */
+    border: 1px solid #c40c0c; /* Accent color for borders */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 220px; /* Adjust width as needed */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .productCard:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 4px;
+  }
+  
+  .productName {
+    color: #ffffff; /* White */
+    font-size: 1.2rem; /* Adjust as needed */
+    margin: 10px 0 5px;
+  }
+  
+  .productPrice {
+    color: #c40c0c; /* Accent color */
+    font-size: 1rem; /* Adjust as needed */
+  }
+  
+  
+  /* CSS */
+  .button {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+ 
+  }
+  
+  .button:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }

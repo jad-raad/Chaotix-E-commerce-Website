@@ -1,0 +1,11 @@
+.videoSection {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.videoIframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+}

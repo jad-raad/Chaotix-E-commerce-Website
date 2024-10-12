@@ -1,0 +1,69 @@
+.checkoutPage {
+    padding: 20px;
+    background-color: black; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.userInfo {
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.checkoutButton {
+    background-color: #c40c0c; /* Bootstrap success color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkoutButton:hover {
+    background-color: #d43f3f; /* Darker shade on hover */
+}
+
+.paymentOptions {
+    margin-top: 10px;
+}
+
+/* Style for radio button labels */
+.paymentOptions label {
+    display: flex; /* Align label and radio button */
+    align-items: center; /* Center align items */
+    color: white; /* Text color */
+    font-size: 1.1rem; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-bottom: 5px; /* Space between options */
+}
+
+/* Style for the radio buttons */
+.paymentOptions input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+/* Change color on hover for labels */
+.paymentOptions label:hover {
+    color: #c40c0c; /* Accent color on hover */
+}
+
+/* Style for selected radio button */
+.paymentOptions input[type="radio"]:checked + label {
+    color: #c40c0c; /* Change color when selected */
+    font-weight: bold; /* Make it bold when selected */
+}

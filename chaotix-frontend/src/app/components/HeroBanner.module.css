@@ -1,0 +1,43 @@
+/* src/app/components/HeroBanner.module.css */
+
+.heroBanner { /* Use a local class for the section */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #0A0A0A; /* Jet Black */
+  color: #FFFFFF; /* White text for contrast */
+  text-align: center;
+  padding: 20px; /* Some padding for inner spacing */
+}
+
+/* Prefix h1 with .heroBanner to scope it */
+.heroBanner h1 {
+  font-size: 3rem; /* Large font size for the main heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-weight: bold; /* Bold font weight for emphasis */
+}
+
+/* Prefix p with .heroBanner to scope it */
+.heroBanner p {
+  font-size: 1.5rem; /* Medium font size for the paragraph */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+/* Prefix button with .heroBanner to scope it */
+.heroBanner button {
+  background-color: #c40c0c; /* Bold accent color for the button */
+  color: #FFFFFF; /* White text for the button */
+  border: none; /* Remove default border */
+  padding: 15px 30px; /* Padding for the button */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.heroBanner button:hover {
+  background-color: white; /* Darker shade for hover effect */
+  color: #c40c0c;
+}

@@ -1,0 +1,64 @@
+.cartPage {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.cartItemImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cartItemDetails {
+  flex-grow: 1;
+}
+
+.removeButton {
+  background-color: #c40c0c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #d43f3f;
+}
+
+.continueShopping {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #c40c0c;
+}
+
+.continueShopping:hover {
+  color: #d43f3f;
+}
+
+.checkoutButton {
+  background-color: #c40c0c; /* Bootstrap success color */
+  color: white;
+  border: none;
+  padding: 10px 15px; /* Padding for the button */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+  margin-top: 20px; /* Space above the button */
+}
+
+.checkoutButton:hover {
+  background-color: #d43f3f; /* Darker shade on hover */
+}

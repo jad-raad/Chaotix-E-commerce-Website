@@ -1,0 +1,85 @@
+.authContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d0d0d; /* Jet black aesthetic */
+  }
+  
+  .formWrapper {
+    background-color: #1a1a1a; /* Dark background for forms */
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .authForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.2rem;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inputField::placeholder {
+    color: #777;
+  }
+  
+  .inputField:focus {
+    background-color: #444;
+  }
+  
+  .submitButton {
+    padding: 1rem;
+    background-color: #e50914; /* Bright red for buttons */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1.2rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #d40813;
+  }
+  
+  .switchAuth {
+    color: #ccc;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .switchAuth a {
+    color: #c40c0c;;
+    text-decoration: none;
+  }
+  
+  .switchAuth a:hover {
+    color: #ff2200;
+
+  }
+  
